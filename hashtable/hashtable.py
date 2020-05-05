@@ -16,6 +16,8 @@ class HashTable:
 
     Implement this.
     """
+    capacity = 10
+    hash_table = [None] * capacity
 
     def fnv1(self, key):
         """
